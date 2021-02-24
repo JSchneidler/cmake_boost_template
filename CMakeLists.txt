@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.13...3.20)
-project(cmake_boost_test
+project(cmake_boost_template
   VERSION 1.0
-  DESCRIPTION "Simple CMake with Boost template"
+  DESCRIPTION "Simple C++ project using CMake and Boost libraries"
   LANGUAGES CXX)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${PROJECT_SOURCE_DIR}/bin)
