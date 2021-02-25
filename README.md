@@ -11,5 +11,11 @@ mkdir build
 cd build
 cmake ..
 cmake --build .
-./bin/cmake_boost_test
+./build/cmake_boost_test
+```
+
+## Unit Tests
+```
+cd build
+ctest
 ```
