@@ -1,7 +1,8 @@
-#define BOOST_TEST_MODULE My Test
+#define BOOST_TEST_MODULE Boost Tests
 #include <boost/test/included/unit_test.hpp>
 
-BOOST_AUTO_TEST_CASE(first_test) {
-  int i = 1;
-  BOOST_TEST(i == 1);
+#include "../src/boost_test.hpp"
+
+BOOST_AUTO_TEST_CASE(pi_test) {
+  BOOST_TEST(pi == 3.1415926535897931);
 }
